@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define INF 9999
-#define V 9
 
 /*Guilherme Moreira Rodrigues 20160105205
 A.P.A - UFPB
