@@ -14,7 +14,7 @@ int MochilaDinamica(int n, int M, int pesos[], int valores[])
 {
     int matr[n+1][M+1];
     int i, j;
-
+//criando tabela ixj
    for (i=0;i<= n;i++)  {
        for (j=0;j<=M;j++)   {
            if (i==0||j==0) {
@@ -35,7 +35,7 @@ int main(void)
 {
     int M;
     int n;
-
+//--------ler arquivo-----------
     int ord[100000];
     string file;
     cout << "Digite o nome da instacia com .txt: ";
@@ -58,9 +58,9 @@ int main(void)
 	for (int i=2; i < 2*n+2; i = i+2)
 	{
 		pesos[j] = ord[i];
-		//cout << "pesos: " << pesos[j] << endl;
+	
 		valores[j] = ord[i+1];
-		//cout << "valores: " << valores[j] <<endl;
+		
 		j++;
 	}
 
